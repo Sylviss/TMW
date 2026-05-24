@@ -181,7 +181,7 @@ Defaults below reflect the wrapper defaults used by `TimeSeriesDistance` and
 | `thres` | Sinkhorn convergence threshold | `1e-5` |
 | `eps_threshold` | Mask threshold | `0.1` |
 | `masked` | Enable temporal mask | `True` |
-| `rescale` | Rescale temporal coordinates | `False` |
+| `rescale` | Rescale temporal coordinates | `True` |
 
 Note: the NumPy API in [tmw_package/temporal_masked_OT.py](tmw_package/temporal_masked_OT.py)
 uses different defaults (e.g., `algorithm="linear_programming"`, `reg=0.0001`,

@@ -86,7 +86,7 @@ class TimeSeriesDistance(nn.Module):
                 'thres': 1e-5,
                 'eps_threshold': 0.1,
                 'masked': True,
-                'rescale': False
+                'rescale': True
             },
             'otw': {
                 'm_cost': 1.0,

@@ -25,7 +25,7 @@ class TimeSeriesLoss(nn.Module):
             'tmw': {
                 'cost_function': "L2", 'mask_type': 1, 'reg': 0.01, 'max_iterations': 1000, 
                 'thres': 1e-5, 'eps_threshold': 0.1, 
-                'masked': True, 'rescale': False, 'device': None
+                'masked': True, 'rescale': True, 'device': None
             },
             'sdtw': {'use_cuda': True, 'gamma': 1.0, 'normalize': False, 'bandwidth': None},
             'gow': {'lambda1': 5.0, 'lambda2': 0.1, 'max_iter': 5, 'sinkhorn_iter': 20, 'fw_iter': 10},
