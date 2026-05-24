@@ -1,0 +1,17 @@
+========================================================================================================================
+
+Metric Descriptions:
+  MMD: Maximum Mean Discrepancy (lower is better)
+  FD: Frechet Distance using ROCKET features (lower is better)
+  ACS: Average Cosine Similarity (higher is better, max 1.0)
+  AJSD: Average Jensen-Shannon Distance (lower is better, min 0.0)
+  Disc: Discriminative Score (lower is better, min 0.0)
+  Pred: Predictive Score/MAE (lower is better)
+
+All metrics are reported as Mean ± Std over 10 runs
+
+------------------------------------------------------------------------------------------------------------------------
+Loss         |                  MMD |                   FD |              ACS |             AJSD |             Disc |             Pred
+------------------------------------------------------------------------------------------------------------------------
+TMW          |  0.018539±0.002258  |     10.82±0.33      |  0.5103±0.0140  |  0.3074±0.0026  |  0.2900±0.1449  |  0.0930±0.0007 
+========================================================================================================================

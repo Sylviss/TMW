@@ -1,0 +1,5 @@
+dataset,distance,k,accuracy,mAP,time
+Weizmann,tmw,1,0.96667,0.945,5.81
+SpokenArabicDigits,tmw,1,0.94773,0.90662,2639.43
+CharacterTrajectories,tmw,1,0.98747,0.97408,1046.99
+BasicMotions,tmw,1,1.0,1.0,2.09
