@@ -55,6 +55,8 @@ image_generate/              # Plotting notebooks and outputs
 
 - The 3D embedding plots using PCA and t-SNE are in
 	[image_generate/single_3d_type_dataset_embedding.ipynb](image_generate/single_3d_type_dataset_embedding.ipynb).
+- Setting `SAVE_GIF = True` in the config cell exports a rotating 360° GIF
+  (72 frames at 20 fps) to `image_generate/outputs/`.
 - Notebook usage guide: [image_generate/README.md](image_generate/README.md)
 
 ## Installation
@@ -190,3 +192,5 @@ opened directly in a browser.
 
 - Notebook: [image_generate/single_3d_type_dataset_embedding.ipynb](image_generate/single_3d_type_dataset_embedding.ipynb)
 - Example HTML: [image_generate/outputs/single_3d_unimib_running_type_1_pca.html](image_generate/outputs/single_3d_unimib_running_type_1_pca.html)
+
+![rotating_3d_unimib_running_type_1_pca](image_generate/outputs/rotating_3d_unimib_running_type_1_pca.gif)
