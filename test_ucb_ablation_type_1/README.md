@@ -61,3 +61,7 @@ TMW_FIXED_PARAMS = {
 ## Outputs
 
 Results and checkpoints are saved under `ablation_results/`.
+
+Note: For GAN tests, TMW checkpoints are saved in `ckpt_tmw_type_1` or
+`ckpt_tmw_type_2`. Rename the folder to `ckpt_tmw` (remove the `_type_1` or
+`_type_2` suffix) to use the checkpoint.

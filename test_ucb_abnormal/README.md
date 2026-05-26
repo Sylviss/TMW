@@ -78,3 +78,7 @@ LOSS_HYPERPARAMS = {
 
 - Checkpoints are saved under `ckpt_*` folders (per loss).
 - Metrics and logs are written to .txt files in this folder.
+
+Note: For GAN tests, TMW checkpoints are saved in `ckpt_tmw_type_1` or
+`ckpt_tmw_type_2`. Rename the folder to `ckpt_tmw` (remove the `_type_1` or
+`_type_2` suffix) to use the checkpoint.
